@@ -1,13 +1,17 @@
-import Header from './components/header';
-import Footer from './components/footer';
+import './App.css';
+import Greeting from './components/Greeting';
+import LuckyNumbers from './components/LuckyNumbers';
 
-function App() {
+function Header() {
+  const firstName = 'Miguel';
+  const lastName = 'Silva';
+
   return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
+    <>
+      <Greeting />
+      <LuckyNumbers />
+    </>
   );
 }
 
-export default App;
+export default Header;
